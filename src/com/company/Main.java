@@ -33,11 +33,11 @@ Bonus: Get the words to fill each array by asking the user to supply them.
         Random rand = new Random();
 
         String[] noun = {"scale","throne","island","cactus","bucket"};
-        String[] nouns = {"playgrounds","visitors","donkeys","feasts","cannons"};
+        String[] nouns = {"playgrounds","visitors","donkeys","feasts","cannons"}; // plural noun words
         String[] adjective = {"tasteless","purple","juicy","dusty","adorable"};
         String[] verb = {"knit","jump","kick","swim","visit"};
-        String[] verbing = {"advising","choosing","excusing","losing","objecting"};
-        String[] verbPast = {"imagined","gathered","jumped","untied","yawned"};
+        String[] verbing = {"advising","choosing","excusing","losing","objecting"}; // verbs ending in -ing
+        String[] verbPast = {"imagined","gathered","jumped","untied","yawned"}; // past tense of verbs
         String[] input = new String[5];
         int place = 0;
 
